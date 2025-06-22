@@ -1,5 +1,5 @@
 
-// --> /data/codes/advanced/frontend/web/static/js/hammer/kl-hammer.js
+
 /**
  * Created by markedboat on 2019/12/19.
  */
@@ -9,9 +9,6 @@
 /* exported Emt,domLoaded */
 
 
-// Object.prototype.isStdArray = function () {
-//     return typeof this.forEach === 'function';
-// };
 if (window.hasKl === undefined) {
     window.hasKl = true;
 
@@ -603,16 +600,16 @@ if (window.hasKl === undefined) {
         .kl-in-dragging {
             border:1px dashed #000 !important;
             box-sizing: border-box;
-        } 
+        }
 
-        
+
 
         .kl-drag-hover {
             border: 0.3em dashed #000 !important;
-            box-sizing: border-box; 
+            box-sizing: border-box;
         }
-       
-       
+
+
                         `
                                 }),
                             ]);
@@ -1838,7 +1835,7 @@ if (window !== top) {
       }
     }
     .kl_modal_background {
-     all: revert;      
+     all: revert;
     }
      .kl_modal_background * {
         all: revert;
@@ -1847,15 +1844,15 @@ if (window !== top) {
         .kl_tool_bar_div {
             top: calc(100vh - 8em - 5px) !important;
         }
-        
-       
+
+
     }
-    .kl_black_theme_style *{   
+    .kl_black_theme_style *{
         background-color: rgba(43,43,43,1) !important;
         color:rgb(135,135,135) !important;
     }
 
-   
+
     .kl_black_theme_style img,.kl_black_theme_style video,.kl_black_theme_style iframe{
        opacity: 0.26;
        filter:grayscale(100%) invert(100%);
@@ -1868,7 +1865,7 @@ if (window !== top) {
        opacity: 1;
        filter:grayscale(0%) invert(0%);
     }
-  
+
     .hide {
         display:none !important;
     }
@@ -1876,7 +1873,7 @@ if (window !== top) {
         display:block;
         float:left;
     }
-    .kl_tool_bar_div {    
+    .kl_tool_bar_div {
         position: fixed;
         top:  calc(100vh - 3em - 5px);
         left: 0;
@@ -1885,19 +1882,19 @@ if (window !== top) {
         padding:0.5em;
         background: #FFF !important;
         z-index: 9999999;
-        font-weight: 900; 
+        font-weight: 900;
     }
-    .kl_tool_bar_div>* {    
+    .kl_tool_bar_div>* {
        display:block  ;
        float:left ;
     }
-   
+
     .kl_tool_bar_opts_div {    }
     .kl_tool_bar_opts_div>* {   float:left; }
-    .kl_tool_bar_btn {    
-        //display:block;    
-        //float:left;    
-        background:#DDD;    
+    .kl_tool_bar_btn {
+        //display:block;
+        //float:left;
+        background:#DDD;
         margin-left: 15px;
         z-index: 9999999;
     }
@@ -1906,7 +1903,7 @@ if (window !== top) {
         border:1px solid #999;
         margin-top1:-1em;
         margin-left:1em;
-        background:#DDD;    
+        background:#DDD;
         margin-left: 15px;
         z-index: 9999999;
     }
@@ -1919,7 +1916,7 @@ if (window !== top) {
         min-height: 1em;
     }
     .kl-tool-msg{
-    
+
         position: fixed;
     top: calc(100vh - 5em - 5px);
     left: 0;
@@ -1928,26 +1925,26 @@ if (window !== top) {
     background: #FFF !important;
     z-index: 9999999;
     font-weight: 900;
-    
+
             left: 2em;
             height: 1em;
             width: 20em;
-            min-height: 1em;        
+            min-height: 1em;
     }
     .kl-tool-msgs-outer{
             display:block;
-            float:left;       
-            width:100%;   
+            float:left;
+            width:100%;
             height:auto;
             position: relative;
     }
-    .kl-tool-msgs,.kl-tool-msgs>*{          
+    .kl-tool-msgs,.kl-tool-msgs>*{
             display:block;
-            float:left;       
-            width:100%;         
+            float:left;
+            width:100%;
     }
     .kl-tool-msgs{
-            transform: translateY(-100%);       
+            transform: translateY(-100%);
     }
     .kl-tool-msgs>*{
             text-shadow: 2px 0 #FFF,
@@ -1957,16 +1954,16 @@ if (window !== top) {
             2px 2px #FFF,
             -2px -2px #FFF,
             2px -2px #FFF,
-            -2px 2px #FFF;               
+            -2px 2px #FFF;
     }
     .kl_tool_bar_opt_divs_div{
         width:100%;
     }
-    
-    .kl_tool_bar_opt_div{        
-        background:#DDD;      
+
+    .kl_tool_bar_opt_div{
+        background:#DDD;
     }
-    .kl_tool_bar_unselect_state {    
+    .kl_tool_bar_unselect_state {
         text-decoration-line: line-through;
         text-decoration-color: #F00;
         /* text-decoration-style: double; */
@@ -1992,7 +1989,7 @@ if (window !== top) {
         position: relative;
         width: 80%;
         margin: 0 auto;
-        margin-top: 2em;        
+        margin-top: 2em;
         height: calc(100vh - 7em );
         overflow-y: scroll;
         overflow-x:hidden;
@@ -2013,8 +2010,8 @@ if (window !== top) {
     }
      .modal_close_btn{
     }
-    
-    
+
+
     .kl_modal_background .modal_title{
         flex-grow: 1;
     }
@@ -2032,13 +2029,13 @@ if (window !== top) {
         font-size:2em;
         border:1px solid #000;
         padding:0.5em;
-    } 
+    }
     .kl_check>*:checked + * {
         color: #FFF;
         background-color: #000;
     }
     .modal_body_row .kl_check>*{
-        
+
     }
     .modal_body_row .kl_check>input[type="checkbox"]{
         height:2em;
@@ -2048,7 +2045,7 @@ if (window !== top) {
         width:100%;
         resize: vertical;
         min-height:2em;
-    } 
+    }
     .modal_body>div{
         width:100%;
         float:left;
@@ -2238,11 +2235,6 @@ if (window !== top) {
 
 //  /data/codes/advanced/frontend/web/static/js/tampermonkey/footer-tool-bar-base.js <--
 
-// --> /data/codes/advanced/frontend/web/static/js/var/collection_tags.js
-
-window.collection_tags = ["\u559c       \u6709\u542f\u53d1\/\u6da8\u89c1\u8bc6",{"value":"\u6709\u542f\u53d1","letterCn":"You_QiFa","letterEn":[""]},{"value":"\u6da8\u89c1\u8bc6","letterCn":"Zhang_JianShi","letterEn":[""]},{"value":"\u53cd\u76f4\u89c9","letterCn":"FanZhiJue","letterEn":[""]},{"value":"\u918d\u9190\u704c\u9876","letterCn":"TiHuGuanDing","letterEn":[""]},{"value":"\u53e6\u6709\u660e\u609f","letterCn":"LingYou_MingWu","letterEn":[""]},{"value":"\u8a00\u8f9e\u7280\u5229","letterCn":"YanCi_XiLi","letterEn":[""]},{"value":"\u4e00\u53e5\u603c\u6b7b","letterCn":"Yi_Ju_Dui_Si","letterEn":[""]},{"value":"\u6587\u7b14\u4f18\u7f8e","letterCn":"WenBi_YouMei","letterEn":[""]},{"value":"\u89d2\u5ea6\u5201\u94bb","letterCn":"JiaoDu_DiaoZuan","letterEn":[""]},{"value":"\u503c\u5f97\u6df1\u601d","letterCn":"ZhiDe_ShenSi","letterEn":[""]},{"value":"\u793e\u4f1a\u89c2\u5bdf","letterCn":"SheHui_GuanCha","letterEn":[""]},{"value":"\u603b\u7ed3\u7cbe\u8f9f","letterCn":"ZongJie_JingPi","letterEn":[""]},{"value":"\u8fd8\u80fd\u8fd9\u4e48\u73a9?","letterCn":"HaiNengZheMeWan","letterEn":[""]},{"value":"\u603c\u7684\u597d","letterCn":"DuiDeHao","letterEn":[""]},"\u559c          \u6210\u957f\/\u8d44\u6599\u7c7b",{"value":"\u6709\u6536\u85cf\u4ef7\u503c","letterCn":"You_ShouCang_JiaZhi","letterEn":[""]},{"value":"\u59cb\u4e8e\u8db3\u4e0b","letterCn":"ShiYuZuXia","letterEn":[""]},{"value":"\u4ed6\u5c71\u4e4b\u77f3","letterCn":"TaShanZhiShi","letterEn":[""]},{"value":"\u53ef\u4ee5\u653b\u7389","letterCn":"KeYiGongYu","letterEn":[""]},{"value":"\u4ee5\u524d\u4e0d\u5c51\u4e00\u987e\u2014\u2014\u73b0\u5728\u75af\u72c2\u7b14\u8bb0","letterCn":"QiQian_BuGuYiXie_XianZai_FengKuangBiJi","letterEn":["now"]},{"value":"\u8dd1\u9898\u2014\u2014\u4f46\u6709\u7528","letterCn":"PaoTi_DanYouYong","letterEn":["but"]},{"value":"\u89c2\u70b9\u504f\u9887\u2014\u2014\u8d44\u6599\u6709\u4ef7\u503c","letterCn":"GuanDian_PianPo_ZiLiao_YouJiaZhi","letterEn":["but"]},{"value":"\u89c2\u70b9\u5783\u573e\u2014\u2014\u8d44\u6599\u6709\u4ef7\u503c","letterCn":"GuanDian_LaJi_ZiLiao_YouJiaZhi","letterEn":["but"]},{"value":"\u5fc3\u6709\u621a\u621a\u7109","letterCn":"Xin_You_QiQiYan","letterEn":["me","too"]},"\u6012",{"value":"\u6c11\u751f\u591a\u8270","letterCn":"","letterEn":[""]},{"value":"\u65e0\u803b\u884c\u5f84","letterCn":"","letterEn":[""]},{"value":"\u72d7\u4e1c\u897f\u540d\u5355","letterCn":"Gou_DongXi_MingDan","letterEn":["dog","list"]},"\u54c0        \u6c89\u91cd",{"value":"\u53cd\u601d\u81ea\u7701","letterCn":"FanSi_FanXing","letterEn":[""]},{"value":"\u8840\u6dcb\u6dcb\u4e8b\u5b9e","letterCn":"XueLinLin_ShiShi","letterEn":[""]},{"value":"\u8840\u6dcb\u6dcb\u4ee3\u4ef7","letterCn":"XueLinLin_DaiJia","letterEn":[""]},{"value":"\u4e8b\u5b9e\u4e0d\u8bb2\u903b\u8f91","letterCn":"ShiShi_Bu_Jiang_LuoJi","letterEn":[""]},{"value":"\u65f6\u4ee3\u4e0d\u540c\u4e86","letterCn":"ShiDai_Bu_Tong_le","letterEn":[""]},{"value":"\u5927\u5bb6\u90fd\u4e00\u6837(\u4e2d\u5916)","letterCn":"DaJia_DouYiYang_ZhongWai","letterEn":["Same"]},{"value":"\u5927\u5bb6\u90fd\u4e00\u6837(\u53e4\u4eca)","letterCn":"DaJia_DouYiYang_GuJin","letterEn":["Same"]},{"value":"\u5927\u5bb6\u90fd\u4e00\u6837(\u4e2a\u4eba)","letterCn":"DaJia_DouYiYang_GeRen","letterEn":["Same"]},{"value":"\u987b\u5f97\u53cd\u601d","letterCn":"ZhiDe_FanSi","letterEn":["Think"]},{"value":"\u53cd\u5e38\uff0c\u5f80\u574f\u5904\u60f3","letterCn":"FanChang_HuaiChu_Xiang","letterEn":["Think"]},{"value":"\u843d\u4e0b\u795e\u575b","letterCn":"LuoXiaShenTan","letterEn":[true]},{"value":"\u624e\u5fc3\u4e86","letterCn":"ZhaXinLe","letterEn":["heart","hit"]},{"value":"\u6df1\u6709\u540c\u611f","letterCn":"Shen_You_Tong_Gan","letterEn":[""]},{"value":"\u6c11\u751f\u591a\u8270","letterCn":"","letterEn":[""]},{"value":"\u4eba\u751f\u767e\u5473","letterCn":"RenSheng_BaiWei","letterEn":[""]},{"value":"\u5fe0\u4e8e\u7406\u60f3","letterCn":"MianDui_LiXiang","letterEn":[""]},{"value":"\u9762\u5bf9\u73b0\u5b9e","letterCn":"ZhongYu_XianShi","letterEn":[""]},{"value":"\u6de1\u6de1\u7684\u60b2\u4f24","letterCn":"DanDan_De_BeiShang","letterEn":["sad"]},{"value":"\u6328\u4e86\u56de\u65cb\u9556","letterCn":"HuiXuanBiao","letterEn":[""]},{"value":"\u5e74\u8f7b\u65f6\u5c04\u51fa\u7684\u5b50\u5f39","letterCn":"NianQing_Shi_SheChu_ZiDan","letterEn":[""]},"\u4e50         \u592a\u5c11\u89c1\u4e86",{"value":"\u5e38\u4eba\u4e0d\u80fd","letterCn":"ChangRen_BuNeng","letterEn":[""]},{"value":"\u6709\u610f\u601d","letterCn":"YouYiSi","letterEn":["fun"]},{"value":"\u592a\u597d\u7b11\u4e86","letterCn":"HaoXiao","letterEn":["fun"]},{"value":"\u597d\u624b\u6bb5","letterCn":"HaoShouDuan","letterEn":["goodJob","goodWay"]},{"value":"\u6d3b\u4e45\u89c1","letterCn":"Huo_Jiu_Jian","letterEn":[""]},{"value":"\u4e0d\u80fd\u76f4\u89c6","letterCn":"BuNeng_ZhiShi","letterEn":[""]},{"value":"\u8c23\u8a00\u5bfb\u6839","letterCn":"YaoYan_XunGen","letterEn":[""]},{"value":"\u7ec6\u601d\u6781\u6050","letterCn":"XiSiJiKong","letterEn":[""]},{"value":"\u9ed1\u8272\u5e7d\u9ed8","letterCn":"HeiSeYouMo","letterEn":["black"]},{"value":"\u5927\u8dcc\u773c\u955c","letterCn":"DaDieYanJing","letterEn":[""]},{"value":"\u4e0d\u80fd\u5ffd\u89c6","letterCn":"BuNeng_HuShi","letterEn":["must"]},{"value":"\u610f\u60f3\u4e0d\u5230","letterCn":"YiXiangBuDao","letterEn":[""]},{"value":"\u795e\u4e4e\u5176\u795e","letterCn":"ShenHuQiShen","letterEn":["wonder","amazing"]},{"value":"\u521b\u610f\u5341\u8db3","letterCn":"ChuangYiShiZu","letterEn":["wonder","amazing"]},{"value":"\u5947\u4eba\u5947\u4e8b","letterCn":"QiRenQiShi","letterEn":["wonder","amazing"]},{"value":"\u95f9\u5267","letterCn":"NaoJu","letterEn":["farce","funny"]},{"value":"\u5408\u8ba2\u672c","letterCn":"HeDingBen","letterEn":[""]},{"value":"\u8fd8\u80fd\u8fd9\u4e48\u73a9?","letterCn":"HaiNengZheMeWan","letterEn":[""]},{"value":"\u56de\u65cb\u9556","letterCn":"HuiXuanBiao","letterEn":[""]},"\u8d2a\u55d4\u75f4\u6162           \u4e0d\u53ef\u4ee5\u5df1\u5ea6\u4eba",{"value":"\u6d6a\u8d39\u8d44\u6599\u4e86","letterCn":"LangFei_ZiLiao","letterEn":[""]},{"value":"\u9e21\u9e23\u72d7\u5420","letterCn":"JiMingGouFei","letterEn":["joker"]},{"value":"\u667a\u969c","letterCn":"ZhiZhang__Joker","letterEn":["joker"]},{"value":"\u53cc\u6807\u72d7","letterCn":"ShuangBiaoGou","letterEn":["dog","joker"]},{"value":"\u62f7\u6253\u667a\u969c","letterCn":"KaoDa_ZhiZhang","letterEn":[""]},{"value":"\u6c11\u751f\u591a\u8270","letterCn":"","letterEn":[""]},"\u60ca\u8bb6",{"value":"\u96be\u4ee5\u7f6e\u4fe1","letterCn":"NanYiZhiXin","letterEn":["unbelievable","incredible"]},"\u609f",{"value":"\u4eba\u751f\u611f\u609f","letterCn":"RenShengGanWu","letterEn":[""]},{"value":"\u751f\u6d3b\u4f53\u609f","letterCn":"ShengHuo_TiWu","letterEn":[""]},"\u53d1\u6563\u601d\u7ef4",{"value":"\u8111\u6d1e\u5927\u5f00","letterCn":"HuanXiang_NaoDong","letterEn":[""]},"\u603b\u7ed3",{"value":"\u603b\u7ed3\u7cbe\u8f9f","letterCn":"ZongJie_JingPi","letterEn":[""]},{"value":"\u6570\u5b57\u8bf4\u8bdd","letterCn":"ShuZi_Shuahua","letterEn":[""]},{"value":"\u771f\u77e5\u707c\u89c1","letterCn":"ZhenZhiZhuoJian","letterEn":[""]},{"value":"\u7b49\u5f85\u540e\u7eed","letterCn":"DengDai_HouXu","letterEn":["Wait Continue"]},{"value":"\u5927\u4f17\u90fd\u662f\u7334\u5b50","letterCn":"DaZhong_doushi_HouZi","letterEn":["monkey","people"]},{"value":"\u8349\u53f0\u73ed\u5b50","letterCn":"CaoTaiBanZi","letterEn":[""]},{"value":"\u793e\u4f1a\u5236\u5ea6\u6709\u95ee\u9898","letterCn":"SheHui_ZhiDu_YouWenTi_GongZheng_GonegPing","letterEn":[""]},"\u7f16\u8f91",{"value":"\u91d1\u53e5\u6458\u6284","letterCn":"JinJu","letterEn":[""]},"\u53f9",{"value":"\u95ea\u5149\u70b9","letterCn":"ShanGuangDian","letterEn":[""]},{"value":"\u8fd8\u662f\u6709\u771f\u5584\u7f8e\u7684","letterCn":"HaiShiYou_ZhenShanMei","letterEn":[""]}];
-
-//  /data/codes/advanced/frontend/web/static/js/var/collection_tags.js <--
 
 // --> /data/codes/advanced/frontend/web/static/js/tampermonkey/bilibili/index.css
 
@@ -4278,6 +4270,8 @@ let klBBLL = {
         klBBLL.setInCom(window.localStorage.getItem('isKlInCom') === 'true');
 
         document.body.classList.add('kl-body');
+        document.body.classList.add('kl-no-debug');
+        klBBLL.IS_DEBUG=false;
 
         klBBLL.lib.addMsg('start init');
         klBBLL.initAreaObj(klBBLL.areaKV.settingArea);
@@ -4528,6 +4522,3 @@ if (top === window) {
 
 
 
-
-//  /data/codes/advanced/frontend/web/static/js/tampermonkey/bilibili/index.js <--
-//end
